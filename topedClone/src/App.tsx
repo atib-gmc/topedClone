@@ -1,10 +1,12 @@
 import React from "react";
 import NavBar from "./components/navbar";
+import Home from "./components/home";
 
 const App = () => {
   return (
-    <div className="w-full h-full bg-blue-400">
+    <div className="">
       <NavBar />
+      <Home />
     </div>
   );
 };
