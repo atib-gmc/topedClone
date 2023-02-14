@@ -73,7 +73,11 @@ const NavBar = () => {
               <span>
                 Dikirim Ke <strong>Jakarta Pusat</strong>
               </span>
-              <BsChevronDown className="text-[10px]" />
+
+              <BsChevronDown
+                //@ts-ignore
+                className="text-[10px]"
+              />
             </div>
           </div>
         </div>
